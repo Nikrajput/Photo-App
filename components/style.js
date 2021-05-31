@@ -159,17 +159,15 @@ export const Title=styled.Text`
     padding:20px;
 `
 export const AddPicContainer=styled.TouchableOpacity`
-    width: 100px;
-    height:100px;
     align-self:flex-end;
     position:absolute;
-    bottom:30px;
-    margin-left:${windowWidth-90}px;
+    bottom:25px;
+    margin-left:${windowWidth-70}px;
 `
 export const AddPicButton=styled.Image`
     width: 50px;
     height: 50px;
-    margin-left:10px;
+    margin-right:15px;
 `
 
 export const PicBox=styled.View`
@@ -181,7 +179,7 @@ export const PicBox=styled.View`
 export const CameraBox=styled.View`
     align-items:center;
     justify-content:center;
-    margin-bottom:${windowHeight/10}px;
+    margin-bottom:${windowHeight/18}px;
 `
 
 export const Picture=styled.Image`
