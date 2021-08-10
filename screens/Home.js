@@ -42,7 +42,6 @@ const Home=({navigation,route})=>{
                    return(
                        <PicBox key={image._id}>
                            <Picture source={{uri:image.path}} />
-                           <PicText>Uploaded by: {image.username}</PicText>
                            <PicText>Face Count: {image.countOfFaces}</PicText>
                        </PicBox>
                    )
