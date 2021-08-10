@@ -16,7 +16,7 @@ const Home=({navigation,route})=>{
     const [response,setResponse]=useState([])
     
     const getAllImage=async()=>{
-        const url='https://photo-app-backend-api.herokuapp.com/image/all'
+        const url=`https://photo-app-backend-api.herokuapp.com/image/all/${route.params._id}`
         const data=await axios.get(url)
         setResponse(data.data.images)
     }
